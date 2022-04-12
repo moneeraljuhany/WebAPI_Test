@@ -11,6 +11,7 @@ namespace WebAPI_Test
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
+        //first place run in project
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
